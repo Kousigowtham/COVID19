@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react'
+import React from 'react'
 import styles from './Cards.module.css'
 import CountUp from 'react-countup'
 import cx from 'classnames'

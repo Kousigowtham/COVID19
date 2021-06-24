@@ -3,7 +3,6 @@ import {Line, Bar, Doughnut} from 'react-chartjs-2'
 import {fectchDailyData} from '../../api'
 import { NativeSelect,FormControl,InputLabel } from '@material-ui/core'
 import styles from './Chart.module.css'
-import { dark } from '@material-ui/core/styles/createPalette'
 
 const Chart = ({data, country}) => {
 
