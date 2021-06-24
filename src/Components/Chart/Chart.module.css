@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filerstyle{
+    margin: 0 1rem 3rem 1rem !important;
+    width: 150px;
+} 
+@media(max-width: 600px) {
+    .container{  
+      display:none;
+    }
+  }
+.doughnut{
+    display: block;
+}
+@media(min-width: 600px) {
+    .doughnut{  
+      display:none;
+    }
+  }
+.line{
+    display: block;  
+    width: 85%;
+}
+@media(max-width:600px) {
+    .line{
+    display:none;
+}
+}
+.bar{
+    width: 85%;
+}
